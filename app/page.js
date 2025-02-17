@@ -1,13 +1,14 @@
-'use client';
+'use client'
 import { useState } from 'react';
 import Select from 'react-select';
-import { FaSearch, FaSpinner } from 'react-icons/fa';
+import { FaSearch, FaSpinner, FaDice } from 'react-icons/fa';
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState(null);
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [options, setOptions] = useState([]);
+  const [inputValue, setInputValue] = useState("");
 
   const fetchSuggestions = async (inputValue) => {
     if (!inputValue) return;
@@ -16,6 +17,28 @@ export default function Home() {
     if (!data.error) {
       setOptions(data);
     }
+  };
+
+  const fetchRandomInvention = async () => {
+    setLoading(true);
+    const res = await fetch('/api/random');
+    const data = await res.json();
+    
+    if (data.name) {
+      const newOption = { label: data.name, value: data.name };
+
+      setOptions((prevOptions) => {
+        if (!prevOptions.some(option => option.value === newOption.value)) {
+          return [...prevOptions, newOption];
+        }
+        return prevOptions;
+      });
+
+      setSearchQuery(newOption);
+      setInputValue(newOption.label); // Inputu doğrudan güncelle
+    }
+    
+    setLoading(false);
   };
 
   const handleSearch = async () => {
@@ -39,6 +62,7 @@ export default function Home() {
       handleSearch();
     }
   };
+
   return (
     <div style={styles.container}>
       <h1 style={styles.hone}>
@@ -47,24 +71,30 @@ export default function Home() {
       <p style={styles.pragr}>You can write in the box below to find out who invented a product.</p>
 
       <div style={styles.inputContainer}>
-      <Select
-  options={options}
-  onChange={setSearchQuery}
-  onInputChange={(inputValue) => {
-    fetchSuggestions(inputValue);
-  }}
-  placeholder="Start typing..."
-  isClearable
-  styles={customStyles}
-  onKeyDown={handleKeyDown} 
-/>
-
+        <Select
+          options={options}
+          onChange={setSearchQuery}
+          inputValue={inputValue} // Input value'yi state ile bağla
+          onInputChange={(value) => {
+            setInputValue(value); // inputValue'yi güncelle
+            fetchSuggestions(value); // Suggestionları güncelle
+          }}
+          placeholder="Start typing..."
+          styles={customStyles}
+          onKeyDown={handleKeyDown}
+        />
         <button 
           onClick={handleSearch}
           style={styles.button}
           disabled={loading || !searchQuery}
         >
           {loading ? <FaSpinner style={styles.loadingIcon} /> : <FaSearch style={styles.searchIcon} />}
+        </button>
+        <button 
+          onClick={fetchRandomInvention}
+          style={styles.diceButton}
+        >
+          <FaDice style={styles.diceIcon} />
         </button>
       </div>
 
@@ -81,7 +111,7 @@ export default function Home() {
 const styles = {
   hone: {
     fontFamily: "'Fascinate', sans-serif",
-    fontSize: '65px',
+    fontSize: '60px',
     marginTop: '-100px',
   },
   info: {
@@ -111,13 +141,44 @@ const styles = {
   inputContainer: {
     display: 'flex',
     marginTop: '50px',
-    justifyContent: 'center',
-    alignItems: 'center',
-    textAlign: 'center',
-    width: '100vw',
+    justifyContent: 'center', // Ortalamayı koruyor
+    alignItems: 'center', // Butonları dikeyde ortalar
+    marginLeft: '100px',
+    width: '100%', // Tam genişlik
+  },
+  buttonContainer: {
+    display: 'flex', // Butonları sağa hizalamak için
+    marginLeft: '10px', // Butonlar arasında biraz boşluk bırak
   },
   button: {
     backgroundColor: '#38b6ff',
+    color: 'white',
+    fontSize: '18px',
+    padding: '10px',
+    border: 'none',
+    marginLeft: '10px',
+    borderRadius: '50%',
+    cursor: 'pointer',
+    transition: 'background-color 0.3s',
+    width: '50px',
+    height: '50px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  searchIcon: {
+    fontSize: '24px',
+  },
+  loadingIcon: {
+    fontSize: '24px',
+    animation: 'spin 1s linear infinite',
+  },
+  result: {
+    fontSize: '20px',
+    marginTop: '20px',
+  },
+  diceButton: {
+    backgroundColor: '#ffcc00',
     color: 'white',
     fontSize: '18px',
     padding: '10px',
@@ -130,18 +191,10 @@ const styles = {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    marginLeft: '1vw'
+    marginLeft: '10px', // Butonlar arasında boşluk
   },
-  searchIcon: {
-    fontSize: '24px',
-  },
-  loadingIcon: {
-    fontSize: '24px',
-    animation: 'spin 1s linear infinite',
-  },
-  result: {
-    fontSize: '20px',
-    marginTop: '20px',
+  diceIcon: {
+    fontSize: '24px'
   }
 };
 
@@ -155,4 +208,4 @@ const customStyles = {
     border: '1px solid #ccc',
     textAlign: 'left'
   })
-};
+}; 
