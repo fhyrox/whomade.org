@@ -1,0 +1,482 @@
+[
+  {
+      "name": "Telephone Directory",
+      "inventor": "Alexander Graham Bell",
+      "wiki": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+  },
+  {
+      "name": "Light Bulb",
+      "inventor": "Thomas Edison",
+      "wiki": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  {
+      "name": "Internet",
+      "inventor": "Vint Cerf and Bob Kahn",
+      "wiki": "https://en.wikipedia.org/wiki/Internet"
+  },
+  {
+      "name": "Battery",
+      "inventor": "Alessandro Volta",
+      "wiki": "https://en.wikipedia.org/wiki/Alessandro_Volta"
+  },
+  {
+      "name": "Airplane",
+      "inventor": "Wright Brothers",
+      "wiki": "https://en.wikipedia.org/wiki/Wright_brothers"
+  },
+  {
+      "name": "Radio",
+      "inventor": "Guglielmo Marconi",
+      "wiki": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+  },
+  {
+      "name": "Telephone Directory",
+      "inventor": "Reuben H. Donnelley",
+      "wiki": "https://en.wikipedia.org/wiki/Reuben_H._Donnelley"
+  },
+  {
+      "name": "Refrigerator",
+      "inventor": "Carl von Linde",
+      "wiki": "https://en.wikipedia.org/wiki/Carl_von_Linde"
+  },
+  {
+      "name": "Television",
+      "inventor": "John Logie Baird",
+      "wiki": "https://en.wikipedia.org/wiki/John_Logie_Baird"
+  },
+  {
+      "name": "Vacuum Cleaner",
+      "inventor": "Hubert Cecil Booth",
+      "wiki": "https://en.wikipedia.org/wiki/Hubert_Cecil_Booth"
+  },
+  {
+      "name": "Sewing Machine",
+      "inventor": "Elias Howe",
+      "wiki": "https://en.wikipedia.org/wiki/Elias_Howe"
+  },
+  {
+      "name": "Calculator",
+      "inventor": "Blaise Pascal",
+      "wiki": "https://en.wikipedia.org/wiki/Blaise_Pascal"
+  },
+  {
+      "name": "Microphone",
+      "inventor": "Emile Berliner",
+      "wiki": "https://en.wikipedia.org/wiki/Emile_Berliner"
+  },
+  {
+      "name": "Radar",
+      "inventor": "Heinrich Hertz",
+      "wiki": "https://en.wikipedia.org/wiki/Heinrich_Hertz"
+  },
+  {
+      "name": "Incandescent Light Bulb",
+      "inventor": "Joseph Swan",
+      "wiki": "https://en.wikipedia.org/wiki/Joseph_Swan"
+  },
+  {
+      "name": "Phonograph",
+      "inventor": "Thomas Edison",
+      "wiki": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  {
+      "name": "Pneumatic Tyre",
+      "inventor": "John Boyd Dunlop",
+      "wiki": "https://en.wikipedia.org/wiki/John_Boyd_Dunlop"
+  },
+  {
+      "name": "Computer",
+      "inventor": "Charles Babbage",
+      "wiki": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  {
+      "name": "Fax Machine",
+      "inventor": "Alexander Bain",
+      "wiki": "https://en.wikipedia.org/wiki/Alexander_Bain"
+  },
+  {
+      "name": "Photocopier",
+      "inventor": "Chester Carlson",
+      "wiki": "https://en.wikipedia.org/wiki/Chester_Carlson"
+  },
+  {
+      "name": "Camera",
+      "inventor": "Louis Le Prince",
+      "wiki": "https://en.wikipedia.org/wiki/Louis_Le_Prince"
+  },
+  {
+      "name": "Compact Disc (CD)",
+      "inventor": "James T. Russell",
+      "wiki": "https://en.wikipedia.org/wiki/James_T._Russell"
+  },
+  {
+      "name": "Printing Press",
+      "inventor": "Johannes Gutenberg",
+      "wiki": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+  },
+  {
+      "name": "Microscope",
+      "inventor": "Zacharias Janssen",
+      "wiki": "https://en.wikipedia.org/wiki/Zacharias_Janssen"
+  },
+  {
+      "name": "Thermometer",
+      "inventor": "Galileo Galilei",
+      "wiki": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  {
+      "name": "Sewing Machine",
+      "inventor": "Isaac Singer",
+      "wiki": "https://en.wikipedia.org/wiki/Isaac_Singer"
+  },
+  {
+      "name": "Barometer",
+      "inventor": "Evangelista Torricelli",
+      "wiki": "https://en.wikipedia.org/wiki/Evangelista_Torricelli"
+  },
+  {
+      "name": "Switchboard",
+      "inventor": "Almon Brown Strowger",
+      "wiki": "https://en.wikipedia.org/wiki/Almon_Brown_Strowger"
+  },
+  {
+      "name": "Gyroscope",
+      "inventor": "Léon Foucault",
+      "wiki": "https://en.wikipedia.org/wiki/L%C3%A9on_Foucault"
+  },
+  {
+      "name": "Elevator",
+      "inventor": "Elisha Otis",
+      "wiki": "https://en.wikipedia.org/wiki/Elisha_Otis"
+  },
+  {
+      "name": "Fan",
+      "inventor": "Schuyler Skaats Wheeler",
+      "wiki": "https://en.wikipedia.org/wiki/Schuyler_Skaats_Wheeler"
+  },
+  {
+      "name": "Morse Code",
+      "inventor": "Samuel Morse",
+      "wiki": "https://en.wikipedia.org/wiki/Samuel_Morse"
+  },
+  {
+      "name": "Modem",
+      "inventor": "William S. Lear",
+      "wiki": "https://en.wikipedia.org/wiki/William_S._Lear"
+  },
+  {
+      "name": "Electric Car",
+      "inventor": "Thomas Parker",
+      "wiki": "https://en.wikipedia.org/wiki/Thomas_Parker"
+  },
+  {
+      "name": "Digital Clock",
+      "inventor": "George Brown",
+      "wiki": "https://en.wikipedia.org/wiki/George_Brown"
+  },
+  {
+      "name": "Health Clinic",
+      "inventor": "Ignaz Semmelweis",
+      "wiki": "https://en.wikipedia.org/wiki/Ignaz_Semmelweis"
+  },
+  {
+      "name": "Classic Car",
+      "inventor": "Karl Benz",
+      "wiki": "https://en.wikipedia.org/wiki/Karl_Benz"
+  },
+  {
+      "name": "Vacuum Cleaner",
+      "inventor": "Hubert Cecil Booth",
+      "wiki": "https://en.wikipedia.org/wiki/Hubert_Cecil_Booth"
+  },
+  {
+      "name": "Wheel",
+      "inventor": "Unknown",
+      "wiki": "https://en.wikipedia.org/wiki/Wheel"
+  },
+  {
+      "name": "Paper",
+      "inventor": "Ts'ai Lun",
+      "wiki": "https://en.wikipedia.org/wiki/Ts'ai_Lun"
+  },
+  {
+      "name": "Phone Booth",
+      "inventor": "William Gray",
+      "wiki": "https://en.wikipedia.org/wiki/William_Gray_(telephone)"
+  },
+  {
+      "name": "Chemical Reactor",
+      "inventor": "George Charles de Hevesy",
+      "wiki": "https://en.wikipedia.org/wiki/George_Charles_de_Hevesy"
+  },
+  {
+      "name": "Wired Music",
+      "inventor": "Hermann von Helmholtz",
+      "wiki": "https://en.wikipedia.org/wiki/Hermann_von_Helmholtz"
+  },
+  {
+      "name": "Electric Train",
+      "inventor": "Werner von Siemens",
+      "wiki": "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+  },
+  {
+      "name": "Laser",
+      "inventor": "Theodore Maiman",
+      "wiki": "https://en.wikipedia.org/wiki/Theodore_Maiman"
+  },
+  {
+      "name": "Air Conditioning",
+      "inventor": "Willis Carrier",
+      "wiki": "https://en.wikipedia.org/wiki/Willis_Carrier"
+  },
+  {
+      "name": "Transistor",
+      "inventor": "John Bardeen, Walter Brattain, and William Shockley",
+      "wiki": "https://en.wikipedia.org/wiki/Transistor"
+  },
+  {
+      "name": "Telescope",
+      "inventor": "Galileo Galilei",
+      "wiki": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  {
+      "name": "Smartphone",
+      "inventor": "Martin Cooper",
+      "wiki": "https://en.wikipedia.org/wiki/Martin_Cooper"
+  },
+  {
+      "name": "Electric Guitar",
+      "inventor": "Les Paul",
+      "wiki": "https://en.wikipedia.org/wiki/Les_Paul"
+  },
+    {
+        "name": "Jet Engine",
+        "inventor": "Frank Whittle",
+        "wiki": "https://en.wikipedia.org/wiki/Frank_Whittle"
+    },
+    {
+        "name": "Teflon",
+        "inventor": "Roy Plunkett",
+        "wiki": "https://en.wikipedia.org/wiki/Roy_Punkett"
+    },
+    {
+        "name": "Post-It Notes",
+        "inventor": "Spencer Silver and Art Fry",
+        "wiki": "https://en.wikipedia.org/wiki/Post-it_Notes"
+    },
+    {
+        "name": "Bluetooth",
+        "inventor": "Jaap Haartsen",
+        "wiki": "https://en.wikipedia.org/wiki/Bluetooth"
+    },
+    {
+        "name": "Cataract Surgery",
+        "inventor": "Sushruta",
+        "wiki": "https://en.wikipedia.org/wiki/Sushruta"
+    },
+    {
+        "name": "Electric Light",
+        "inventor": "Humphry Davy",
+        "wiki": "https://en.wikipedia.org/wiki/Humphry_Davy"
+    },
+    {
+        "name": "X-ray",
+        "inventor": "Wilhelm Conrad Roentgen",
+        "wiki": "https://en.wikipedia.org/wiki/Wilhelm_Conrad_R%C3%B6ntgen"
+    },
+    {
+        "name": "Cement",
+        "inventor": "Joseph Aspdin",
+        "wiki": "https://en.wikipedia.org/wiki/Joseph_Aspdin"
+    },
+    {
+        "name": "Toothbrush",
+        "inventor": "William Addis",
+        "wiki": "https://en.wikipedia.org/wiki/William_Addis"
+    },
+    {
+        "name": "Piano",
+        "inventor": "Bartolomeo Cristofori",
+        "wiki": "https://en.wikipedia.org/wiki/Bartolomeo_Cristofori"
+    },
+    {
+        "name": "Cotton Gin",
+        "inventor": "Eli Whitney",
+        "wiki": "https://en.wikipedia.org/wiki/Eli_Whitney"
+    },
+    {
+        "name": "Cataract Surgery",
+        "inventor": "Sushruta",
+        "wiki": "https://en.wikipedia.org/wiki/Sushruta"
+    },
+    {
+        "name": "Corkscrew",
+        "inventor": "Daniel Stillman",
+        "wiki": "https://en.wikipedia.org/wiki/Daniel_Stillman"
+    },
+    {
+        "name": "Celsius Thermometer",
+        "inventor": "Anders Celsius",
+        "wiki": "https://en.wikipedia.org/wiki/Anders_Celsius"
+    },
+    {
+        "name": "Stethoscope",
+        "inventor": "René Laennec",
+        "wiki": "https://en.wikipedia.org/wiki/Ren%C3%A9_Laennec"
+    },
+    {
+        "name": "Umbrella",
+        "inventor": "Unknown (Ancient China)",
+        "wiki": "https://en.wikipedia.org/wiki/Umbrella"
+    },
+    {
+        "name": "The Printing Press",
+        "inventor": "Johannes Gutenberg",
+        "wiki": "https://en.wikipedia.org/wiki/Johannes_Gutenberg"
+    },
+    {
+        "name": "Bicycle",
+        "inventor": "Karl von Drais",
+        "wiki": "https://en.wikipedia.org/wiki/Karl_von_Drais"
+    },
+    {
+        "name": "Hot Air Balloon",
+        "inventor": "Brothers Joseph-Michel and Jacques-Étienne Montgolfier",
+        "wiki": "https://en.wikipedia.org/wiki/Montgolfier_brothers"
+    },
+    {
+        "name": "Soda Water",
+        "inventor": "Joseph Priestley",
+        "wiki": "https://en.wikipedia.org/wiki/Joseph_Priestley"
+    },
+    {
+        "name": "Ladder",
+        "inventor": "Unknown",
+        "wiki": "https://en.wikipedia.org/wiki/Ladder"
+    },
+    {
+        "name": "Odometer",
+        "inventor": "Zhan Xiong",
+        "wiki": "https://en.wikipedia.org/wiki/Odometer"
+    },
+    {
+        "name": "Match",
+        "inventor": "John Walker",
+        "wiki": "https://en.wikipedia.org/wiki/John_Walker_(chemist)"
+    },
+    {
+        "name": "Crane",
+        "inventor": "Ancient Greeks",
+        "wiki": "https://en.wikipedia.org/wiki/Crane_(machine)"
+    },
+    {
+        "name": "Ballpoint Pen",
+        "inventor": "László Bíró",
+        "wiki": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3"
+    },
+    {
+        "name": "Toothpaste",
+        "inventor": "Ancient Egyptians",
+        "wiki": "https://en.wikipedia.org/wiki/Toothpaste"
+    },
+    {
+        "name": "Tennis Racket",
+        "inventor": "Ancient Greeks",
+        "wiki": "https://en.wikipedia.org/wiki/Tennis_racket"
+    },
+    {
+        "name": "Fire Extinguisher",
+        "inventor": "George William Manby",
+        "wiki": "https://en.wikipedia.org/wiki/George_William_Manby"
+    },
+    {
+        "name": "Wheelbarrow",
+        "inventor": "Ancient Greeks",
+        "wiki": "https://en.wikipedia.org/wiki/Wheelbarrow"
+    },
+    {
+        "name": "Electric Fan",
+        "inventor": "Schuyler Skaats Wheeler",
+        "wiki": "https://en.wikipedia.org/wiki/Schuyler_Skaats_Wheeler"
+    },
+    {
+        "name": "Shampoo",
+        "inventor": "H. L. Brown",
+        "wiki": "https://en.wikipedia.org/wiki/Shampoo"
+    },
+    {
+        "name": "Slinky",
+        "inventor": "Richard James",
+        "wiki": "https://en.wikipedia.org/wiki/Slinky"
+    },
+    {
+        "name": "Helicopter",
+        "inventor": "Igor Sikorsky",
+        "wiki": "https://en.wikipedia.org/wiki/Igor_Sikorsky"
+    },
+    {
+        "name": "Surgical Scissors",
+        "inventor": "Ambroise Paré",
+        "wiki": "https://en.wikipedia.org/wiki/Ambroise_Par%C3%A9"
+    },
+    {
+        "name": "Elevator",
+        "inventor": "Elisha Otis",
+        "wiki": "https://en.wikipedia.org/wiki/Elisha_Otis"
+    },
+    {
+        "name": "Ice Cream Cone",
+        "inventor": "Italo Marchiony",
+        "wiki": "https://en.wikipedia.org/wiki/Italo_Marchiony"
+    },
+    {
+        "name": "Shopping Cart",
+        "inventor": "Sylvan Goldman",
+        "wiki": "https://en.wikipedia.org/wiki/Sylvan_Goldman"
+    },
+    {
+        "name": "Bicycle Helmet",
+        "inventor": "Lester J. R. Bernard",
+        "wiki": "https://en.wikipedia.org/wiki/Bicycle_helmet"
+    },
+    {
+        "name": "Washing Machine",
+        "inventor": "James King",
+        "wiki": "https://en.wikipedia.org/wiki/James_King_(inventor)"
+    },
+    {
+        "name": "Piano",
+        "inventor": "Bartolomeo Cristofori",
+        "wiki": "https://en.wikipedia.org/wiki/Bartolomeo_Cristofori"
+    },
+    {
+        "name": "Typewriter",
+        "inventor": "Christopher Latham Sholes",
+        "wiki": "https://en.wikipedia.org/wiki/Christopher_Latham_Sholes"
+    },
+    {
+        "name": "Speedometer",
+        "inventor": "Sir George Everest",
+        "wiki": "https://en.wikipedia.org/wiki/George_Everest"
+    },
+    {
+        "name": "Laser Printer",
+        "inventor": "Gary Starkweather",
+        "wiki": "https://en.wikipedia.org/wiki/Gary_Starkweather"
+    },
+    {
+        "name": "ATM (Automated Teller Machine)",
+        "inventor": "John Shepherd-Barron",
+        "wiki": "https://en.wikipedia.org/wiki/John_Shepherd-Barron"
+    },
+    {
+        "name": "Credit Card",
+        "inventor": "John Biggins",
+        "wiki": "https://en.wikipedia.org/wiki/Credit_card"
+    },
+    {
+        "name": "Refrigerator",
+        "inventor": "Carl von Linde",
+        "wiki": "https://en.wikipedia.org/wiki/Carl_von_Linde"
+    }
+]
